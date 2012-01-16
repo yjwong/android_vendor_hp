@@ -20,13 +20,7 @@ PRODUCT_COPY_FILES += \
     vendor/hp/tenderloin/proprietary/graphics/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
     vendor/hp/tenderloin/proprietary/graphics/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
     vendor/hp/tenderloin/proprietary/graphics/lib/libgsl.so:system/lib/libgsl.so \
-    vendor/hp/tenderloin/proprietary/graphics/lib/libgenlock.so:system/lib/libgenlock.so \
     vendor/hp/tenderloin/proprietary/graphics/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
-    vendor/hp/tenderloin/proprietary/graphics/lib/liboverlay.so:system/lib/liboverlay.so \
-    vendor/hp/tenderloin/proprietary/graphics/lib/libmemalloc.so:system/lib/libmemalloc.so \
-    vendor/hp/tenderloin/proprietary/graphics/lib/hw/gralloc.msm8660.so:system/lib/hw/gralloc.msm8660.so \
-    vendor/hp/tenderloin/proprietary/graphics/lib/hw/copybit.msm8660.so:system/lib/hw/copybit.msm8660.so \
-    vendor/hp/tenderloin/proprietary/graphics/lib/hw/hwcomposer.msm8660.so:system/lib/hw/hwcomposer.msm8660.so \
     vendor/hp/tenderloin/proprietary/graphics/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     vendor/hp/tenderloin/proprietary/graphics/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/hp/tenderloin/proprietary/graphics/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
