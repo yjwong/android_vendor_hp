@@ -27,10 +27,6 @@ PRODUCT_COPY_FILES += \
     vendor/hp/tenderloin/proprietary/graphics/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
     vendor/hp/tenderloin/proprietary/graphics/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so
 
-# Lights
-PRODUCT_COPY_FILES += \
-    vendor/hp/tenderloin/proprietary/lights/lib/hw/lights.msm8660.so:system/lib/hw/lights.msm8660.so
-
 # Miscellaneous libraries
 PRODUCT_COPY_FILES += \
     vendor/hp/tenderloin/proprietary/misc/lib/libcamera.so:system/lib/libcamera.so \
