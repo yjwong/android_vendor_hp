@@ -21,11 +21,29 @@ PRODUCT_COPY_FILES += \
     vendor/hp/tenderloin/proprietary/graphics/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
     vendor/hp/tenderloin/proprietary/graphics/lib/libgsl.so:system/lib/libgsl.so \
     vendor/hp/tenderloin/proprietary/graphics/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
+    vendor/hp/tenderloin/proprietary/graphics/lib/libC2D2.so:system/lib/libC2D2.so \
+    vendor/hp/tenderloin/proprietary/graphics/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/hp/tenderloin/proprietary/graphics/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     vendor/hp/tenderloin/proprietary/graphics/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/hp/tenderloin/proprietary/graphics/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
     vendor/hp/tenderloin/proprietary/graphics/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
     vendor/hp/tenderloin/proprietary/graphics/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so
+
+# Audio firmware
+PRODUCT_COPY_FILES += \
+    vendor/hp/tenderloin/proprietary/audio/etc/firmware/wm8958_enh_eq.wfw:system/etc/firmware/wm8958_enh_eq.wfw \
+    vendor/hp/tenderloin/proprietary/audio/etc/firmware/wm8958_mbc_vss.wfw:system/etc/firmware/wm8958_mbc_vss.wfw \
+    vendor/hp/tenderloin/proprietary/audio/etc/firmware/wm8958_mbc.wfw:system/etc/firmware/wm8958_mbc.wfw
+
+# Miscellaneous firmware
+PRODUCT_COPY_FILES += \
+    vendor/hp/tenderloin/proprietary/misc/etc/firmware/q6.b00:system/etc/firmware/q6.b00 \
+    vendor/hp/tenderloin/proprietary/misc/etc/firmware/q6.b01:system/etc/firmware/q6.b01 \
+    vendor/hp/tenderloin/proprietary/misc/etc/firmware/q6.b02:system/etc/firmware/q6.b02 \
+    vendor/hp/tenderloin/proprietary/misc/etc/firmware/q6.b03:system/etc/firmware/q6.b03 \
+    vendor/hp/tenderloin/proprietary/misc/etc/firmware/q6.b04:system/etc/firmware/q6.b04 \
+    vendor/hp/tenderloin/proprietary/misc/etc/firmware/q6.b05:system/etc/firmware/q6.b05 \
+    vendor/hp/tenderloin/proprietary/misc/etc/firmware/q6.mdt:system/etc/firmware/q6.mdt
 
 # Miscellaneous libraries
 PRODUCT_COPY_FILES += \
