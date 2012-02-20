@@ -45,6 +45,10 @@ PRODUCT_COPY_FILES += \
     vendor/hp/tenderloin/proprietary/misc/etc/firmware/q6.b05:system/etc/firmware/q6.b05 \
     vendor/hp/tenderloin/proprietary/misc/etc/firmware/q6.mdt:system/etc/firmware/q6.mdt
 
+# Video support - need for video thumbnail extraction
+PRODUCT_COPY_FILES += \
+    vendor/hp/tenderloin/proprietary/video/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so
+
 # Miscellaneous libraries
 PRODUCT_COPY_FILES += \
     vendor/hp/tenderloin/proprietary/misc/lib/libcamera.so:system/lib/libcamera.so \
