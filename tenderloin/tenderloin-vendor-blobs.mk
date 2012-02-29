@@ -55,7 +55,6 @@ PRODUCT_COPY_FILES += \
     vendor/hp/tenderloin/proprietary/misc/lib/libdiag.so:system/lib/libdiag.so \
     vendor/hp/tenderloin/proprietary/misc/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/hp/tenderloin/proprietary/misc/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
-    vendor/hp/tenderloin/proprietary/misc/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/hp/tenderloin/proprietary/misc/lib/libqdp.so:system/lib/libqdp.so \
     vendor/hp/tenderloin/proprietary/misc/lib/libqmi.so:system/lib/libqmi.so \
     vendor/hp/tenderloin/proprietary/misc/lib/libqmiservices.so:system/lib/libqmiservices.so 
